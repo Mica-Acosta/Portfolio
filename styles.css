@@ -15,15 +15,12 @@
     --color-Gris: #ffffff6e;
 }
 
-title {
-    font-size: 20px;
-}
-
 /* NAVBAR SECTION */
 
 header {
     min-height: 120px;
     display: flex;
+    flex-wrap: wrap;
     justify-content: end;
     align-items: center;
     background-color: var(--color-Negro);
@@ -98,7 +95,6 @@ header {
 }
 
 .about-greeting h1 {
-    padding: 10px;
     font-size: 70px;
     font-weight: 900;
     font-style: italic;
@@ -161,7 +157,8 @@ header {
 }
 
 .skills-text {
-    padding: 40px;
+    width: 900px;
+    padding: 30px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -170,6 +167,7 @@ header {
 }
 
 .skills-text h2 {
+    padding: 30px;
     font-size: 60px;
     font-weight: 800;
     text-align: center;
@@ -181,10 +179,14 @@ header {
 }
 
 .grid-skills {
-    padding: 100px;
-    gap: 20px;
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    height: 1200px;
+    width: 1200px;
+    margin: 40px;
+    gap: 70px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
 }
 
 .card {
@@ -259,17 +261,17 @@ header {
 
 .project-section {
     min-height: 100vh;
-    padding-bottom: 100px;
+    gap: 40px
+    ;
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
-    justify-content: center;
+    justify-content: space-evenly;
     align-items: center;
     background-color: var(--color-Negro);
 }
 
 .project-container {
-    padding: 40px;
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
@@ -279,32 +281,34 @@ header {
 }
 
 .project-container h2 {
-    margin: 20px;
+    padding: 40px;
     display: flex;
     flex-direction: column;
     font-size: 55px;
 }
 
 .project-container p {
-    margin-top: 40px;
     font-size: 25px;
 }
 
 .grid-project {
+    height: 700px;
+    width: 700px;
     gap: 70px;
     display: flex;
     flex-wrap: wrap;
-    align-items: center;
     justify-content: center;
+    align-items: center;
 }
 
 .grid-project a {
     height: 300px;
     width: 300px;
-    padding: 40px;
+    padding: 50px;
     color: var(--color-Blanco);
     display: flex;
     flex-direction: column;
+    justify-content: space-evenly;
     align-items: center;
     text-decoration: none;
     font-size: 15px;
@@ -334,7 +338,8 @@ header {
 }
 
 .contact-container {
-    width: 900px;
+    height: 700px;
+    width: 1200px;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
@@ -344,8 +349,8 @@ header {
 }
 
 .contact-text {
-    width: 50%;
-    padding: 30px;
+    height: 700px;
+    width: 400px;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
@@ -362,7 +367,6 @@ header {
 }
 
 .contact-links ul {
-    margin-top: 40px;
     transition: 0.2s;
     text-decoration: none;
     list-style: none;
@@ -409,8 +413,9 @@ header {
 }
 
 .contact-form-section {
-    width: 50%;
+    width: 500px;
     padding: 30px;
+    gap: 30px;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
@@ -423,7 +428,6 @@ header {
 }
 
 .form-control {
-    margin: 7px;
     flex-grow: 1;
     position: relative;
 }
@@ -481,8 +485,6 @@ header {
 }
 
 .footer-nav li a {
-    margin: 15px;
-    height: 16px;
     list-style: none;
     text-decoration: none;
     font-size: 20px;
@@ -496,8 +498,8 @@ header {
 /* COMIENZO RESPONSIVE */
 
 @media (max-width:880px) {
-    .link-list ul {
-        flex-direction: column;
+    header {
+      
     }
     .grid-skills {
         
