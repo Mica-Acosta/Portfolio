@@ -8,17 +8,17 @@
 :root {
     --color-Negro: #000000;
     --color-Blanco: #FFFFFF;
-    --color-Lila-hover: #bc4ed8;
-    --color-Violeta-button: #a608e4;
-    --color-Violeta-oscuro: #4c007d;
+    --color-hover: #2b97fa;
+    --color-button: #01c4e7;
+    --color-Azulcielo: #6664ff;
     --color-Violeta-noche: #1b004b;
-    --color-Gris: #ffffff6e;
+    --color-Gris: #8583836e;
 }
 
 /* NAVBAR SECTION */
 
 header {
-    min-height: 120px;
+    min-height: 80px;
     display: flex;
     flex-wrap: wrap;
     justify-content: end;
@@ -37,7 +37,7 @@ header {
     list-style: none;
 }
 
-.link-list li{
+.link-list li {
     padding: 10px;
 }
 
@@ -50,20 +50,20 @@ header {
 }
 
 .nav-link:hover {
-    color: var(--color-Lila-hover);
+    color: var(--color-hover);
 }
 
 .nav-contacto {
     padding: 8px 16px;
     text-decoration: none;
     border-radius: 48px;
-    background-color: var(--color-Violeta-button);
+    background-color: var(--color-Azulcielo);
     color: var(--color-Negro);
     box-shadow: 1px 1px 10px 1px rgba(255, 255, 255, 0.25);
 }
 
 .nav-contacto:hover {
-    background-color: var(--color-Lila-hover);
+    background-color: var(--color-hover);
     color: var(--color-Negro);
 }
 
@@ -98,7 +98,7 @@ header {
     font-size: 70px;
     font-weight: 900;
     font-style: italic;
-    background: linear-gradient(45deg, #a608e4, #4c007d, #a608e4);
+    background: linear-gradient(45deg, #6664ff, #2b97fa, #01c4e7, #55ffe2, #01c4e7, #2b97fa, #6664ff);
     background-size: 400%;
     -webkit-text-fill-color: transparent;
     -webkit-background-clip: text;
@@ -123,14 +123,14 @@ header {
     font-size: 20px;
     font-weight: 500;
     border-radius: 48px;
-    background-color: var(--color-Violeta-button);
+    background-color: var(--color-Azulcielo);
     color: #FFFFFF;
     box-shadow: 1px 1px 10px 1px rgba(255, 255, 255, 0.19);
     text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.205);
 }
 
 .about-button:hover {
-    background-color: var(--color-Lila-hover);
+    background-color: var(--color-hover);
     color: var(--color-Negro);
 }
 
@@ -181,7 +181,7 @@ header {
 .grid-skills {
     height: 1200px;
     width: 1200px;
-    margin: 40px;
+    margin-bottom: 100px;
     gap: 70px;
     display: flex;
     flex-wrap: wrap;
@@ -197,7 +197,7 @@ header {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-image: url(Img/galaxy.webp);
+    background-image: url(Img/gloria-rodgers-galaxy-signed.jpg);
     background-size: cover;
     box-shadow: 0px 0px 80px -24px rgba(255, 255, 255, 0.432) inset
 }
@@ -208,7 +208,7 @@ header {
 }
 
 .card:hover {
-    box-shadow: 1px 1px 64px 23px rgba(104, 43, 209, 0.55) inset;
+    box-shadow: 1px 1px 64px 23px var(--color-Gris) inset;
     color: var(--color-Blanco);
 
 }
@@ -226,7 +226,7 @@ header {
     flex-direction: column;
     justify-content: space-evenly;
     align-items: center;
-    background: linear-gradient(90deg, #4c007d, #6f03a5, #7c04b3, #8705c0, #9306ce, #8705c0, #7c04b3, #6f03a5, #4c007d);
+    background: linear-gradient(180deg, #6664ff, #2b97fa, #01c4e7, #2b97fa, #6664ff);
     color: var(--color-Blanco);
     box-shadow: 0px 0px 90px 4px rgba(0, 0, 0, 0.50) inset;
 }
@@ -261,8 +261,7 @@ header {
 
 .project-section {
     min-height: 100vh;
-    gap: 40px
-    ;
+    gap: 40px;
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
@@ -292,8 +291,9 @@ header {
 }
 
 .grid-project {
-    height: 700px;
-    width: 700px;
+    height: 800px;
+    width: 800px;
+    margin: 30px;
     gap: 70px;
     display: flex;
     flex-wrap: wrap;
@@ -302,9 +302,10 @@ header {
 }
 
 .grid-project a {
-    height: 300px;
-    width: 300px;
-    padding: 50px;
+    height: 320px;
+    width: 320px;
+    gap: 20px;
+    padding: 30px;
     color: var(--color-Blanco);
     display: flex;
     flex-direction: column;
@@ -312,7 +313,7 @@ header {
     align-items: center;
     text-decoration: none;
     font-size: 15px;
-    background-image: url(Img/galaxy.webp);
+    background-image: url(Img/gloria-rodgers-galaxy-signed.jpg);
     background-size: cover;
     box-shadow: 0px 0px 80px -24px rgba(255, 255, 255, 0.432) inset
 }
@@ -340,6 +341,7 @@ header {
 .contact-container {
     height: 700px;
     width: 1200px;
+    margin: 90px;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
@@ -384,11 +386,11 @@ header {
 }
 
 .contact-social-link:hover {
-    color: var(--color-Lila-hover);
+    color: var(--color-hover);
 }
 
 .contact-social-link:hover .contact-social-icon {
-    background-color: var(--color-Lila-hover);
+    background-color: var(--color-hover);
     color: var(--color-Negro);
 }
 
@@ -403,7 +405,7 @@ header {
     display: block;
     width: 50px;
     height: 50px;
-    color: var(--color-Violeta-button);
+    color: var(--color-button);
     border-radius: 50%;
     font-size: 30px;
     line-height: 50px;
@@ -457,14 +459,14 @@ header {
     font-size: 20px;
     font-weight: 500;
     border-radius: 48px;
-    background-color: var(--color-Violeta-button);
+    background-color: var(--color-button);
     color: #FFFFFF;
     box-shadow: 1px 1px 10px 1px rgba(255, 255, 255, 0.19);
     text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.205);
 }
 
 .contact-send-btn:hover {
-    background-color: var(--color-Lila-hover);
+    background-color: var(--color-hover);
     color: var(--color-Negro);
     cursor: pointer;
 }
@@ -481,6 +483,7 @@ header {
 }
 
 .footer-nav ul {
+    gap: 20px;
     display: flex;
 }
 
@@ -492,27 +495,32 @@ header {
 }
 
 .footer-nav a:hover {
-    color: var(--color-Lila-hover);
+    color: var(--color-hover);
 }
 
 /* COMIENZO RESPONSIVE */
 
 @media (max-width:880px) {
     header {
-      
+
     }
+
     .grid-skills {
-        
+        flex-direction: column;
     }
 
     .grid-project {
-        
+        flex-direction: column;
     }
 }
 
 
 @media (max-width:480px) {
     .grid-skills {
-        
+        flex-direction: column;
+    }
+
+    .gris-project {
+        flex-direction: ;
     }
 }
