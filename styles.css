@@ -2,7 +2,11 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+<<<<<<< HEAD
     font-family: 'Montserrat', sans-serif;
+=======
+    font-family: 'Poppins', sans-serif;
+>>>>>>> bd9c857 (Corregi responsive y añadi animacion a los botones)
 }
 
 :root {
@@ -39,6 +43,10 @@ header {
 
 .link-list li {
     padding: 10px;
+<<<<<<< HEAD
+=======
+    font-size: 18px;
+>>>>>>> bd9c857 (Corregi responsive y añadi animacion a los botones)
 }
 
 .nav-link {
@@ -59,12 +67,33 @@ header {
     border-radius: 48px;
     background-color: var(--color-Azulcielo);
     color: var(--color-Negro);
+<<<<<<< HEAD
     box-shadow: 1px 1px 10px 1px rgba(255, 255, 255, 0.25);
+=======
+    box-shadow: inset 0 0 20px rgba(66, 84, 245, 0);
+    outline: 2px solid;
+    outline-color: rgba(255, 255, 255, 0.253);
+    outline-offset: 0px;
+    text-shadow: none;
+    transition: all 1250ms cubic-bezier(0.19, 1, 0.22, 1);
+>>>>>>> bd9c857 (Corregi responsive y añadi animacion a los botones)
 }
 
 .nav-contacto:hover {
     background-color: var(--color-hover);
     color: var(--color-Negro);
+<<<<<<< HEAD
+=======
+    box-shadow: inset 0 0 20px rgba(255, 255, 255, .5);
+    outline-color: rgba(255, 255, 255, 0);
+    outline-offset: 15px;
+    text-shadow: 1px 1px 2px #427388;
+}
+
+.nav-contacto:active {
+    transform: scale(1.3);
+    box-shadow: 3px 2px 22px 1px rgba(126, 126, 126, 0.658);
+>>>>>>> bd9c857 (Corregi responsive y añadi animacion a los botones)
 }
 
 /* ABOUT ME SECTION */
@@ -73,20 +102,30 @@ header {
     min-height: 100vh;
     display: flex;
     flex-wrap: wrap;
+<<<<<<< HEAD
     justify-content: space-evenly;
+=======
+    justify-content: center;
+>>>>>>> bd9c857 (Corregi responsive y añadi animacion a los botones)
     align-items: center;
     background-image: url(Img/galaxy.webp);
     background-size: cover;
 }
 
 .about-greeting {
+<<<<<<< HEAD
     margin: 50px;
+=======
+    padding: 50px;
+    gap: 20px;
+>>>>>>> bd9c857 (Corregi responsive y añadi animacion a los botones)
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
 }
 
+<<<<<<< HEAD
 .about-greeting p {
     font-size: 25px;
     font-weight: 500;
@@ -104,6 +143,32 @@ header {
     -webkit-background-clip: text;
     animation: animate 15s linear infinite;
     text-shadow: 1px 0px 2px rgba(0, 0, 0, 0.164);
+=======
+.about-me-greeting {
+    font-size: 25px;
+    font-weight: 600;
+    color: var(--color-Blanco);
+    text-shadow: 2px 2px 2px rgba(255, 255, 255, 0.377);
+}
+
+.about-me-description {
+    width: 700px;
+    font-size: 19px;
+    font-weight: 400;
+    color: var(--color-Blanco);
+}
+
+.about-greeting h1 {
+    font-size: 80px;
+    font-weight: 600;
+    background: linear-gradient(45deg, #6664ff, #2b97fa, #01c4e7, #55ffe2, #01c4e7, #2b97fa, #6664ff);
+    background-size: 400%;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    animation: animate 15s linear infinite;
+    text-shadow: 2px 2px 1px rgba(0, 0, 0, 0.281);
+>>>>>>> bd9c857 (Corregi responsive y añadi animacion a los botones)
 }
 
 @keyframes animate {
@@ -125,13 +190,23 @@ header {
     border-radius: 48px;
     background-color: var(--color-Azulcielo);
     color: #FFFFFF;
+<<<<<<< HEAD
     box-shadow: 1px 1px 10px 1px rgba(255, 255, 255, 0.19);
     text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.205);
+=======
+    box-shadow: inset 0 0 20px rgba(66, 84, 245, 0);
+    outline: 1px solid;
+    outline-color: rgba(255, 255, 255, 0.253);
+    outline-offset: 0px;
+    text-shadow: none;
+    transition: all 1250ms cubic-bezier(0.19, 1, 0.22, 1);
+>>>>>>> bd9c857 (Corregi responsive y añadi animacion a los botones)
 }
 
 .about-button:hover {
     background-color: var(--color-hover);
     color: var(--color-Negro);
+<<<<<<< HEAD
 }
 
 .about-svg {
@@ -141,6 +216,28 @@ header {
 
 .about-svg img {
     width: 100%;
+=======
+    box-shadow: inset 0 0 20px rgba(255, 255, 255, .5);
+    outline-color: rgba(255, 255, 255, 0);
+    outline-offset: 15px;
+    text-shadow: 1px 1px 2px #427388;
+}
+
+.about-button:active {
+    transform: scale(1.3);
+    box-shadow: 3px 2px 22px 1px rgba(126, 126, 126, 0.658);
+}
+
+.about-svg {
+    width: 350px;
+    margin: 10px;
+    text-align: center;
+}
+
+.about-svg img {
+    width: 80%;
+    border-radius: 50%;
+>>>>>>> bd9c857 (Corregi responsive y añadi animacion a los botones)
 }
 
 
@@ -150,15 +247,23 @@ header {
     min-height: 100vh;
     background-color: var(--color-Negro);
     display: flex;
+<<<<<<< HEAD
     flex-wrap: wrap;
+=======
+>>>>>>> bd9c857 (Corregi responsive y añadi animacion a los botones)
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
 
 .skills-text {
+<<<<<<< HEAD
     width: 900px;
     padding: 30px;
+=======
+    padding: 30px;
+    gap: 40px;
+>>>>>>> bd9c857 (Corregi responsive y añadi animacion a los botones)
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -167,18 +272,28 @@ header {
 }
 
 .skills-text h2 {
+<<<<<<< HEAD
     padding: 30px;
     font-size: 60px;
     font-weight: 800;
+=======
+    font-size: 50px;
+    font-weight: 700;
+>>>>>>> bd9c857 (Corregi responsive y añadi animacion a los botones)
     text-align: center;
 }
 
 .skills-text p {
+<<<<<<< HEAD
     font-size: 20px;
+=======
+    font-size: 18px;
+>>>>>>> bd9c857 (Corregi responsive y añadi animacion a los botones)
     text-align: center;
 }
 
 .grid-skills {
+<<<<<<< HEAD
     height: 1200px;
     width: 1200px;
     margin-bottom: 100px;
@@ -192,11 +307,24 @@ header {
 .card {
     height: 300px;
     width: 300px;
+=======
+    margin-bottom: 100px;
+    gap: 70px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.card {
+    height: 250px;
+    width: 250px;
+    gap: 10px;
+>>>>>>> bd9c857 (Corregi responsive y añadi animacion a los botones)
     color: var(--color-Blanco);
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+<<<<<<< HEAD
     background-image: url(Img/gloria-rodgers-galaxy-signed.jpg);
     background-size: cover;
     box-shadow: 0px 0px 80px -24px rgba(255, 255, 255, 0.432) inset
@@ -204,10 +332,25 @@ header {
 
 .card p {
     margin: 30px;
+=======
+    border-radius: 10px;
+    background-image: url(Img/gloria-rodgers-galaxy-signed.jpg);
+    background-size: cover;
+    box-shadow: inset 0 0 20px rgba(0, 0, 0, 0);
+    outline: 1px solid;
+    outline-color: rgba(255, 255, 255, 0.253);
+    outline-offset: 0px;
+    text-shadow: none;
+    transition: all 1250ms cubic-bezier(0.19, 1, 0.22, 1);
+}
+
+.card p {
+>>>>>>> bd9c857 (Corregi responsive y añadi animacion a los botones)
     font-size: 20px;
 }
 
 .card:hover {
+<<<<<<< HEAD
     box-shadow: 1px 1px 64px 23px var(--color-Gris) inset;
     color: var(--color-Blanco);
 
@@ -216,6 +359,18 @@ header {
 .card img {
     height: 80px;
     margin-top: 40px;
+=======
+    background-color: var(--color-hover);
+    color: var(--color-Blanco);
+    box-shadow: inset 0 0 20px rgba(0, 0, 0, 0.5);
+    outline-color: rgba(255, 255, 255, 0);
+    outline-offset: 20px;
+    text-shadow: 1px 1px 2px #427388;
+}
+
+.card img {
+    height: 75px;
+>>>>>>> bd9c857 (Corregi responsive y añadi animacion a los botones)
 }
 
 /* QUOTE SECTION */
@@ -236,7 +391,11 @@ header {
     display: flex;
     justify-content: center;
     align-items: center;
+<<<<<<< HEAD
     font-size: 128px;
+=======
+    font-size: 100px;
+>>>>>>> bd9c857 (Corregi responsive y añadi animacion a los botones)
 }
 
 .quote {
@@ -247,14 +406,22 @@ header {
 
 .quote p {
     margin: 0 80px;
+<<<<<<< HEAD
     font-size: 35px;
+=======
+    font-size: 28px;
+>>>>>>> bd9c857 (Corregi responsive y añadi animacion a los botones)
     text-align: center;
 }
 
 .quote h3 {
     margin: 80px 0;
     font-style: italic;
+<<<<<<< HEAD
     font-size: 32px;
+=======
+    font-size: 28px;
+>>>>>>> bd9c857 (Corregi responsive y añadi animacion a los botones)
 }
 
 /* MY PROJECT SECTION */
@@ -263,7 +430,10 @@ header {
     min-height: 100vh;
     gap: 40px;
     display: flex;
+<<<<<<< HEAD
     flex-wrap: wrap;
+=======
+>>>>>>> bd9c857 (Corregi responsive y añadi animacion a los botones)
     flex-direction: column;
     justify-content: space-evenly;
     align-items: center;
@@ -276,6 +446,10 @@ header {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+<<<<<<< HEAD
+=======
+    text-align: center;
+>>>>>>> bd9c857 (Corregi responsive y añadi animacion a los botones)
     color: var(--color-Blanco);
 }
 
@@ -286,6 +460,7 @@ header {
     font-size: 55px;
 }
 
+<<<<<<< HEAD
 .project-container p {
     font-size: 25px;
 }
@@ -304,6 +479,18 @@ header {
 .grid-project a {
     height: 320px;
     width: 320px;
+=======
+.grid-project {
+    margin: 30px;
+    gap: 70px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.grid-project a {
+    height: 280px;
+    width: 280px;
+>>>>>>> bd9c857 (Corregi responsive y añadi animacion a los botones)
     gap: 20px;
     padding: 30px;
     color: var(--color-Blanco);
@@ -313,6 +500,7 @@ header {
     align-items: center;
     text-decoration: none;
     font-size: 15px;
+<<<<<<< HEAD
     background-image: url(Img/gloria-rodgers-galaxy-signed.jpg);
     background-size: cover;
     box-shadow: 0px 0px 80px -24px rgba(255, 255, 255, 0.432) inset
@@ -321,6 +509,26 @@ header {
 .grid-project a:hover {
     box-shadow: 1px 1px 64px 23px rgba(104, 43, 209, 0.397) inset;
     color: var(--color-Blanco);
+=======
+    border-radius: 10px;
+    background-image: url(Img/gloria-rodgers-galaxy-signed.jpg);
+    background-size: cover;
+    box-shadow: inset 0 0 20px rgba(0, 0, 0, 0);
+    outline: 1px solid;
+    outline-color: rgba(255, 255, 255, 0.253);
+    outline-offset: 0px;
+    text-shadow: none;
+    transition: all 1250ms cubic-bezier(0.19, 1, 0.22, 1);
+}
+
+.grid-project a:hover {
+    background-color: var(--color-hover);
+    color: var(--color-Blanco);
+    box-shadow: inset 0 0 20px rgba(0, 0, 0, 0.5);
+    outline-color: rgba(255, 255, 255, 0);
+    outline-offset: 15px;
+    text-shadow: 1px 1px 2px #427388;
+>>>>>>> bd9c857 (Corregi responsive y añadi animacion a los botones)
 }
 
 .img-project {
@@ -331,6 +539,10 @@ header {
 
 .contact-section {
     min-height: 100vh;
+<<<<<<< HEAD
+=======
+    padding: 70px;
+>>>>>>> bd9c857 (Corregi responsive y añadi animacion a los botones)
     display: flex;
     justify-content: center;
     align-items: center;
@@ -339,6 +551,7 @@ header {
 }
 
 .contact-container {
+<<<<<<< HEAD
     height: 700px;
     width: 1200px;
     margin: 90px;
@@ -347,21 +560,40 @@ header {
     justify-content: space-evenly;
     align-items: center;
     border-radius: 10%;
+=======
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    border-radius: 20px;
+>>>>>>> bd9c857 (Corregi responsive y añadi animacion a los botones)
     box-shadow: 0px 0px 80px -24px #ffffff6e inset
 }
 
 .contact-text {
     height: 700px;
+<<<<<<< HEAD
     width: 400px;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
+=======
+    width: 600px;
+    padding: 25px;
+    gap: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+>>>>>>> bd9c857 (Corregi responsive y añadi animacion a los botones)
     align-items: flex-start;
     color: var(--color-Blanco);
 }
 
 .contact-text h2 {
+<<<<<<< HEAD
     font-size: 50px;
+=======
+    font-size: 40px;
+>>>>>>> bd9c857 (Corregi responsive y añadi animacion a los botones)
 }
 
 .contact-text p {
@@ -369,7 +601,10 @@ header {
 }
 
 .contact-links ul {
+<<<<<<< HEAD
     transition: 0.2s;
+=======
+>>>>>>> bd9c857 (Corregi responsive y añadi animacion a los botones)
     text-decoration: none;
     list-style: none;
 }
@@ -415,7 +650,10 @@ header {
 }
 
 .contact-form-section {
+<<<<<<< HEAD
     width: 500px;
+=======
+>>>>>>> bd9c857 (Corregi responsive y añadi animacion a los botones)
     padding: 30px;
     gap: 30px;
     display: flex;
@@ -430,6 +668,10 @@ header {
 }
 
 .form-control {
+<<<<<<< HEAD
+=======
+    gap: 50px;
+>>>>>>> bd9c857 (Corregi responsive y añadi animacion a los botones)
     flex-grow: 1;
     position: relative;
 }
@@ -461,13 +703,29 @@ header {
     border-radius: 48px;
     background-color: var(--color-button);
     color: #FFFFFF;
+<<<<<<< HEAD
     box-shadow: 1px 1px 10px 1px rgba(255, 255, 255, 0.19);
     text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.205);
+=======
+    box-shadow: inset 0 0 20px rgba(66, 84, 245, 0);
+    outline: 1px solid;
+    outline-color: rgba(255, 255, 255, 0.253);
+    outline-offset: 0px;
+    text-shadow: none;
+    transition: all 1250ms cubic-bezier(0.19, 1, 0.22, 1);
+>>>>>>> bd9c857 (Corregi responsive y añadi animacion a los botones)
 }
 
 .contact-send-btn:hover {
     background-color: var(--color-hover);
     color: var(--color-Negro);
+<<<<<<< HEAD
+=======
+    box-shadow: inset 0 0 20px rgba(255, 255, 255, .5);
+    outline-color: rgba(255, 255, 255, 0);
+    outline-offset: 15px;
+    text-shadow: 1px 1px 2px #427388;
+>>>>>>> bd9c857 (Corregi responsive y añadi animacion a los botones)
     cursor: pointer;
 }
 
@@ -475,20 +733,35 @@ header {
 
 .footer-nav {
     min-height: 150px;
+<<<<<<< HEAD
     display: flex;
     flex-wrap: wrap;
+=======
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+>>>>>>> bd9c857 (Corregi responsive y añadi animacion a los botones)
     justify-content: center;
     align-items: center;
     background-color: var(--color-Negro);
 }
 
 .footer-nav ul {
+<<<<<<< HEAD
     gap: 20px;
     display: flex;
 }
 
 .footer-nav li a {
     list-style: none;
+=======
+    gap: 10px;
+    display: flex;
+    list-style: none;
+}
+
+.footer-nav li a {
+>>>>>>> bd9c857 (Corregi responsive y añadi animacion a los botones)
     text-decoration: none;
     font-size: 20px;
     color: var(--color-Blanco);
@@ -498,6 +771,7 @@ header {
     color: var(--color-hover);
 }
 
+<<<<<<< HEAD
 /* COMIENZO RESPONSIVE */
 
 @media (max-width:880px) {
@@ -522,5 +796,135 @@ header {
 
     .gris-project {
         flex-direction: ;
+=======
+.footer-text {
+    color: var(--color-Blanco);
+}
+
+/* COMIENZO RESPONSIVE */
+
+@media (max-width:880px) {
+
+    header {
+        justify-content: center;
+    }
+
+    .link-list {
+        padding-right: 0px;
+    }
+
+    .about-greeting {
+        text-align: center;
+        align-items: center;
+    }
+
+    .about-greeting h1 {
+        font-size: 70px;
+    }
+
+    .about-me-description {
+        width: 400px;
+        font-size: 15px;
+    }
+
+    .grid-skills {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .card {
+        height: 200px;
+        width: 200px;
+    }
+
+    .grid-project a {
+        height: 230px;
+        width: 230px;
+    }
+
+    .contact-container {
+        flex-direction: column;
+        border-radius: 20px;
+    }
+
+    .contact-text {
+        height: 500px;
+        width: 400px;
+    }
+
+    .footer-nav ul {
+        text-align: center;
+        gap: 10px;
+    }
+}
+
+@media (max-width:480px) {
+    header {
+        display: none;
+    }
+
+    .about-greeting {
+        text-align: center;
+    }
+
+    .skills-text h2 {
+        font-size: 30px;
+    }
+
+    .grid-skills {
+        gap: 30px;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .card {
+        height: 150px;
+        width: 150px;
+    }
+
+    .card p {
+        font-size: 15px;
+    }
+
+    .grid-project {
+        grid-template-columns: 1fr;
+    }
+
+    .project-container p {
+        width: 300px;
+        text-align: center;
+        font-size: 15px;
+    }
+
+    .contact-container {
+        flex-direction: column;
+        border-radius: 20px;
+    }
+
+    .contact-text {
+        height: 450px;
+        width: 350px;
+    }
+
+    .contact-form-section {
+        width: 350px;
+    }
+
+    .contact-text p {
+        font-size: 15px;
+    }
+
+    .input-fullname {
+        flex-direction: column;
+        font-size: 18px;
+    }
+
+    .form-control {
+        font-size: 18px;
+    }
+
+    .footer-list ul {
+        flex-direction: column;
+        text-align: center;
+        gap: 10px;
+>>>>>>> bd9c857 (Corregi responsive y añadi animacion a los botones)
     }
 }
