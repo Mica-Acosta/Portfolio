@@ -586,12 +586,17 @@ header {
     }
 
     .grid-skills {
+        gap: 35px;
         grid-template-columns: repeat(2, 1fr);
     }
 
     .card {
         height: 200px;
         width: 200px;
+    }
+
+    .grid-project {
+        gap: 35px;
     }
 
     .grid-project a {
@@ -609,9 +614,22 @@ header {
         width: 400px;
     }
 
+    .input-fullname {
+        flex-direction: column;
+        font-size: 18px;
+    }
+
+    .form-control {
+        font-size: 18px;
+    }
+
     .footer-nav ul {
         text-align: center;
         gap: 10px;
+    }
+
+    .footer-list li a {
+        font-size: 15px;
     }
 }
 
