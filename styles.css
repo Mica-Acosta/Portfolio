@@ -335,8 +335,8 @@ header {
 }
 
 .grid-project a {
-    height: 350px;
-    width: 350px;
+    height: 280px;
+    width: 280px;
     gap: 20px;
     padding: 30px;
     color: var(--color-Blanco);
@@ -346,7 +346,7 @@ header {
     align-items: center;
     text-align: center;
     text-decoration: none;
-    font-size: 19px;
+    font-size: 16px;
     border-radius: 10px;
     background-image: url(Img/gloria-rodgers-galaxy-signed.jpg);
     background-size: cover;
