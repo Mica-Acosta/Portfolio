@@ -335,8 +335,8 @@ header {
 }
 
 .grid-project a {
-    height: 280px;
-    width: 280px;
+    height: 350px;
+    width: 350px;
     gap: 20px;
     padding: 30px;
     color: var(--color-Blanco);
@@ -344,8 +344,9 @@ header {
     flex-direction: column;
     justify-content: space-evenly;
     align-items: center;
+    text-align: center;
     text-decoration: none;
-    font-size: 15px;
+    font-size: 19px;
     border-radius: 10px;
     background-image: url(Img/gloria-rodgers-galaxy-signed.jpg);
     background-size: cover;
@@ -393,8 +394,8 @@ header {
 .contact-text {
     height: 700px;
     width: 600px;
-    padding: 25px;
-    gap: 20px;
+    padding: 30px;
+    gap: 30px;
     display: flex;
     flex-direction: column;
     justify-content: start;
@@ -407,7 +408,7 @@ header {
 }
 
 .contact-text p {
-    font-size: 20px;
+    font-size: 19px;
 }
 
 .contact-links ul {
@@ -603,6 +604,7 @@ header {
     .grid-project a {
         height: 200px;
         width: 200px;
+        font-size: 14px;
     }
 
     .contact-section {
@@ -677,6 +679,10 @@ header {
 
     .grid-project {
         grid-template-columns: 1fr;
+    }
+
+    .gtid-project a {
+        font-size: 14px;
     }
 
     .project-container p {
