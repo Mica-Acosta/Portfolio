@@ -92,7 +92,7 @@ header {
     justify-content: center;
     align-items: center;
     background-image: url(Img/galaxy.webp);
-    background-size: cover;
+    background-size: contain;
 }
 
 .about-greeting {
@@ -380,7 +380,7 @@ header {
     justify-content: center;
     align-items: center;
     background-image: url(Img/galaxy.webp);
-    background-size: cover;
+    background-size: contain;
 }
 
 .contact-container {
