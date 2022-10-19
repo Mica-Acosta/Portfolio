@@ -470,7 +470,7 @@ header {
 }
 
 .form-control {
-    gap: 50px;
+    margin: 10px;
     flex-grow: 1;
     position: relative;
 }
@@ -605,6 +605,11 @@ header {
         width: 200px;
     }
 
+    .contact-section {
+        background-image: url(Img/galaxy.webp);
+        background-size: contain;
+    }
+
     .contact-container {
         flex-direction: column;
         border-radius: 20px;
@@ -678,6 +683,11 @@ header {
         width: 300px;
         text-align: center;
         font-size: 15px;
+    }
+
+    .contact-section {
+        background-image: url(Img/galaxy.webp);
+        background-size: contain;
     }
 
     .contact-container {
